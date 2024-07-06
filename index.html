@@ -3,8 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header class="header">
+        <div class="container header-container">
+            <section class="section" id="photo">
+                <h2>Profile</h2>
+                    <img  src="/assets/avatar-125.jpg" alt="my photo">
+                </section>
+                <section class="section" id="profile">
+                 <h1>Inna Makarova</h1>
+                </section>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+     </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Location : Minsk, Belarus</li>
+                    <li>Email : makarovainna3@gmail.com</li>
+                    <li>Phone : +375 44 7797590</li>
+                    <li>GitHub: inna_n_makarova</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I want to change my profession</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre>
+    let arr = [1, 2, 4, 6, 7]
+    let arr2 = []
+    for(let i = arr.length-1; i>=0; i--) {
+    arr2[arr.length-1-i] = arr[i]
+    }
+    console.log(arr2)</pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>RedRower school</li>
+                    <li>Udemy</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <a href="https://github.com/rolling-scopes-school/innanmakarova-JSFEPRESCHOOL2024Q2"> My Projects</a>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>Belarusian Institute of Law</li>
+                    </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Russian(Native)</li>
+                    <li>English(A-1)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+           <img src="assets/image.ico" class="rss" alt="favicon">
+           <a href="https://rs.school/courses/javascript-preschool-ru">RS School</a>
+           <a href="https://github.com/InnaNMakarova"> My Github</a>
+           <p>06.07.2024</p>
+        </div>
+    </footer>
 </body>
 </html>
